@@ -3,7 +3,7 @@ package com.coolweather.app.db;
 import java.util.List;
 
 import com.coolweather.app.model.City;
-import com.coolweather.app.model.Country;
+import com.coolweather.app.model.County;
 import com.coolweather.app.model.Province;
 
 import android.content.Context;
@@ -83,7 +83,7 @@ public class CoolWeatherDB {
 	 * 将Country 实例保存到数据库
 	 * @param country
 	 */
-	private void saveCountry(Country country) {
+	private void saveCounty(County country) {
 		
 	}
 	
@@ -92,7 +92,7 @@ public class CoolWeatherDB {
 	 * @param cityId
 	 * @return
 	 */
-	private List<Country> loadCountries(int cityId) {
+	private List<County> loadCounties(int cityId) {
 		return null;
 	}
 }

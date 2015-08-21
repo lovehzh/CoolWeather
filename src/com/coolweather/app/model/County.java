@@ -1,9 +1,9 @@
 package com.coolweather.app.model;
 
-public class Country {
+public class County {
 	private int id;
-	private String countryName;
-	private String countryCode;
+	private String countyName;
+	private String countyCode;
 	private int cityId;
 	public int getId() {
 		return id;
@@ -12,16 +12,16 @@ public class Country {
 		this.id = id;
 	}
 	public String getCountryName() {
-		return countryName;
+		return countyName;
 	}
 	public void setCountryName(String countryName) {
-		this.countryName = countryName;
+		this.countyName = countryName;
 	}
 	public String getCountryCode() {
-		return countryCode;
+		return countyCode;
 	}
 	public void setCountryCode(String countryCode) {
-		this.countryCode = countryCode;
+		this.countyCode = countryCode;
 	}
 	public int getCityId() {
 		return cityId;
